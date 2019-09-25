@@ -1,0 +1,116 @@
+body{
+	background: ;
+	font-family: montserrat;
+	font-size:14px;
+	font-weight:;
+	font-style: bold;
+	text-align:left;
+	width:700px;
+
+
+}
+
+p {
+	font-family: montserrat;
+	font-style: medium;
+	font-size: 17px;
+}
+
+.date {
+	font-family: bebas-kai, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+	color: #001f60;
+	letter-spacing: 0px 
+}
+
+.address{
+	font-family: bebas-kai, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	color: #001f60;
+	
+
+}
+
+
+
+.line1 {
+	background: #001f60;
+	width: 400px;
+	height: 30px;
+	top: 300px;
+}
+}
+
+
+
+.circle div {
+	position: absolute;
+}
+
+
+
+.circle1 {		width:200px; /*resize as you see fit */
+        		height:300px; /*resize as you see fit */
+
+        	}	
+
+        			.c1 {
+        			background: #ff0900;
+        			opacity: 80%;
+        			width: 1000px;
+        			height: 1000px;
+        			top: 100px;
+        			left: 200px;
+        			border-radius: 500px;
+        			}
+
+
+
+.circle1 {
+
+        	}	
+
+        			.c2 {
+        			background: #ff0900;
+        			opacity: 80%;
+        			width: 1000px;
+        			height: 1000px;
+        			top: 30px;
+        			left: 200px;
+        			border-radius: 500px;
+        			}
+
+
+
+em {
+	font-family:montserrat;
+	font-weight: bold;
+}
+
+
+h3,{
+	font-family: bebas-kai, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+h1 {
+	font-family: helvetica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5em;
+}
+
+
+
+
+
+
+
+
+
