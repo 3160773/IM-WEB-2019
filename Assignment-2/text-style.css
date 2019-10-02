@@ -1,109 +1,407 @@
 body{
-	background: ;
-	font-family: montserrat;
+	background-image: linear-gradient(#d95bfd,#fc454b);
 	font-size:14px;
-	font-weight:;
-	font-style: bold;
-	text-align:left;
-	width:700px;
-
+	width:500px;
 
 }
 
 p {
-	font-family: montserrat;
+	font-family: futura;
 	font-style: medium;
-	font-size: 17px;
+	font-weight: lighter;
+	font-size: 20px;
+	color: white;
+	z-index: 2;
+}
+
+.eventtext {
+
+		width: 530px;
+		font-size: 50px;
+		position: relative;
+		top: -50px;
+}
+
+.event-summary02 {
+		position: relative;
+		top: -10px;
+}
+
+
+.title {
+		width: 2200px;
+		letter-spacing:-10px;
+	
+}
+
+
+.letter {
+	border:none;
+	transform: scale(0.7);
+	position: relative;
+
+	
+}
+
+.letter-hfirst{
+	left: -20px;
+}
+
+.letter-e{
+	left: -40px;
+}
+
+.letter-o{
+	left: -60px;
+}
+
+.letter-r{
+	left: -80px;
+}
+
+.letter-ifirst{
+	left: -155px;
+}
+
+.letter-z{
+	left: -245px;
+}
+
+.letter-isecond{
+	left: -340px;
+}
+
+.letter-n{
+	left: -410px;
+}
+
+.letter-g{
+	left: -430px;
+}
+
+.letter-tsecond{
+	top: -100px;
+}
+
+.letter-hsecond{
+	top: -100px;
+	left: -20px;
+}
+
+.letter-efirst{
+	top: -100px;
+	left: -40px;
+}
+
+.letter-w{
+	top: -100px;
+	left: 70px;
+}
+
+
+.letter-ethird{
+	top: -100px;
+	left: 50px;
+}
+
+.letter-b{
+	top: -100px;
+	left: 30px;
+}
+
+.header {
+		width: 5000px;
 }
 
 .date {
 	font-family: bebas-kai, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 35px;
-	color: #001f60;
-	letter-spacing: 0px 
+	font-size: 60px;
+	color: white;
+	letter-spacing: 3px;
+	position: relative;
+	top: -30px;
 }
 
 .address{
 	font-family: bebas-kai, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 30px;
-	color: #001f60;
-	
+	font-size: 60px;
+	width: 750px;
+	position: relative;
+	top: -50px;
+	color: white;
+	letter-spacing: 4px;
 
 }
 
 
-
-.line1 {
-	background: #001f60;
-	width: 400px;
-	height: 30px;
-	top: 300px;
-}
-}
-
-
-
-.circle div {
-	position: absolute;
+.L1 {
+	background: #FFFF;
+	position: relative;
+	width: 185px;
+	height: 25px;
+	top: -20px;
+	left: 40px;
 }
 
+.L2 {
+	background: #FFFF;
+	position: relative;
+	width: 185px;
+	height: 25px;
+	top: 900px;
+	left: 700px;
+	z-index: 2;
+}
 
 
-.circle1 {		width:200px; /*resize as you see fit */
+
+
+.circle1 {	
+				width:200px; /*resize as you see fit */
         		height:300px; /*resize as you see fit */
+        		
 
         	}	
 
         			.c1 {
-        			background: #ff0900;
+        			background-image: linear-gradient(30deg,#ff2b79,#ffffb1);
+        			position: relative;
         			opacity: 80%;
         			width: 1000px;
         			height: 1000px;
-        			top: 100px;
-        			left: 200px;
+        			top: -50px;
+        			left:-300px;
         			border-radius: 500px;
+
         			}
-
-
-
-.circle1 {
-
-        	}	
-
         			.c2 {
-        			background: #ff0900;
+        			background-image: linear-gradient(#aa3afd,#ff2840);
         			opacity: 80%;
-        			width: 1000px;
-        			height: 1000px;
-        			top: 30px;
-        			left: 200px;
-        			border-radius: 500px;
+        			position: relative;
+        			width: 1200px;
+        			height: 1200px;
+        			top: -1400px;
+        			left: 800px;
+        			border-radius: 1000px;
+        			z-index: -2;
         			}
+        			.c3 {
+					background-image: linear-gradient(30deg,#ff3f6a,#d9bfff);
+        			opacity: 80%;
+        			position: relative;
+        			width: 800px;
+        			height: 800px;
+        			top: -1580px;
+        			left: 600px;
+        			border-radius:3000px;
+        			z-index: 2;
+        	}
+    			
 
+h2
+	{
+	position: relative;
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 3px z-index: 2;
+    font-size: 60px;
+    width: 800;
+    letter-spacing: 2px;
+    top: -2800px;
+    left: 700px;
 
-
-em {
-	font-family:montserrat;
-	font-weight: bold;
 }
 
+h3 {
+	position: relative;
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+    font-size: 45px;
+    letter-spacing: 2px;
+    top: -2850px;
+    left: 700px;
+    z-index: 2;
+}
 
-h3,{
+h5 {
+	font-family: bebas-kai;
+	position: relative;
+
+}
+
+.info01 {
+	position: relative;
+	font-family: bebas-kai;
+	font-weight: 400;
+	color: white;
+	font-size: 45px;
+	letter-spacing: 2px;
+	top: -3025px;
+	left: 1200px;
+}
+
+.info02 {
+	position: relative;
 	font-family: bebas-kai, sans-serif;
 	font-weight: 400;
-	font-style: normal;
-
+	color: white;
+	font-size: 45px;
+	letter-spacing: 2px;
+	top: -3096px;
+	left: 1157px;
 }
 
+
 h1 {
-	font-family: helvetica, sans-serif;
+	position: relative;
+	font-family: , sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 5em;
+	z-index: 2;
+
+
+}
+
+
+.eventlist01 {
+	position: relative;
+	left: 40px;
+	top: -2407px;
+}
+
+.eventtitle01 {
+	font-family: bebas-kai;
+	font-size: 28px;
+	letter-spacing: 4px;
+	color: white;
+
+}
+
+.eventlist02 {
+	position: relative;
+	left:570px;	
+	top: -2613px;
+	z-index: 2;
+
+}
+
+.eventtitle02 {
+	font-family: bebas-kai;
+	font-size: 28px;
+	letter-spacing: 4px;
+	color: white;
+
+}
+
+.eventlist03 {
+	position: relative;
+	left:1140px;	
+	top: -2847px;
+	z-index: 2;
+
+}
+
+.eventtitle03 {
+	font-family: bebas-kai;
+	font-size: 28px;
+	letter-spacing: 4px;
+	color: white;
+
+}
+
+
+.button {
+	color: white;
+}
+
+.studioA {
+	position: relative;
+	width: 200px;
+	height: 60px;
+	top: -2810px;
+	left: 100px;
+	border-radius: 50px;
+	border: 2px solid white;
+  	  	background-image: linear-gradient( 30deg, #aed9ff,#ffaade);
+  	color: white;
+  	cursor: pointer;
+}
+
+.studioA:hover{
+	background: white;
+	color: black;
+	-webkit-box-shadow: 0px 5px 40px -10px pink;
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+
+.studioB {
+	position: relative;
+	width: 200px;
+	height: 60px;
+	top: -2890px;
+	left: 670px;
+	border-radius: 50px;
+	z-index: 2;
+	border: 2px solid white;
+  	background-image: linear-gradient( 30deg, #aed9ff,#ffaade);
+  	color: white;
+  	cursor: pointer;
+
+}
+
+
+.studioB:hover{
+	background: white;
+	color: black;
+	-webkit-box-shadow: 0px 5px 40px -10px pink;
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+
+.studioC {
+	position: relative;
+	width: 200px;
+	height: 60px;
+	top: -2970px;
+	left: 1260px;
+	border: 2px solid white;
+  	background-image: linear-gradient( 30deg, #aed9ff,#ffaade);
+  	color: white;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.studioC:hover{
+	background: white;
+	color: black;
+	-webkit-box-shadow: 0px 5px 40px -10px pink;
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+
+.hostreference {
+	font-family: bebas-kai;
+	letter-spacing: 3px;
+	font-size: 15px;
+	width: 2000px;
+	color: white;
+	position: relative;
+	left: 300px;
+	top: -2500px;
+
+
 }
 
 
