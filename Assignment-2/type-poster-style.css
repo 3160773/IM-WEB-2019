@@ -1,8 +1,8 @@
 body{
-	background-image: linear-gradient(#d95bfd,#fc454b);
+    /* gradient code was referenced from: https://www.w3schools.com/css/css3_gradients.asp */
+	background-image: linear-gradient(#d95bfd,#fc454b); 
 	font-size:14px;
 	width:500px;
-
 }
 
 p {
@@ -158,53 +158,49 @@ p {
 }
 
 
-
+/* gradient code was referenced from: https://www.w3schools.com/css/css3_gradients.asp */
 
 .circle1 {	
-				width:200px; /*resize as you see fit */
-        		height:300px; /*resize as you see fit */
+				width:200px; 
+        		height:300px; 
         		
 
         	}	
 
         			.c1 {
         			background-image: linear-gradient(30deg,#ff2b79,#ffffb1);
-        			position: relative;
-        			opacity: 80%;
-        			width: 1000px;
-        			height: 1000px;
-        			top: -50px;
-        			left:-300px;
-        			border-radius: 500px;
-
+				    position: absolute;
+				    width: 1000px;
+				    height: 1000px;
+				    top: 1350px;
+				    left: -300px;
+				    border-radius: 500px;
         			}
         			.c2 {
         			background-image: linear-gradient(#aa3afd,#ff2840);
-        			opacity: 80%;
-        			position: relative;
-        			width: 1200px;
-        			height: 1200px;
-        			top: -1400px;
-        			left: 800px;
-        			border-radius: 1000px;
-        			z-index: -2;
+				    position: relative;
+				    width: 1200px;
+				    height: 1200px;
+				    top: -385px;
+				    left: 800px;
+				    border-radius: 1000px;
+				    z-index: -2;
         			}
         			.c3 {
 					background-image: linear-gradient(30deg,#ff3f6a,#d9bfff);
-        			opacity: 80%;
-        			position: relative;
-        			width: 800px;
-        			height: 800px;
-        			top: -1580px;
-        			left: 600px;
-        			border-radius:3000px;
-        			z-index: 2;
+				    position: relative;
+				    width: 800px;
+				    height: 800px;
+				    top: -600px;
+				    left: 600px;
+				    border-radius: 3000px;
+				    z-index: 2;
         	}
     			
 
 h2
 	{
-	position: relative;
+	position: absolute;
     font-family: bebas-kai, sans-serif;
     font-weight: 400;
     color: white;
@@ -212,21 +208,21 @@ h2
     font-size: 60px;
     width: 800;
     letter-spacing: 2px;
-    top: -2800px;
-    left: 700px;
+    top: 1582px;
+    left: 706px;
 
 }
 
 h3 {
-	position: relative;
+	position: absolute;
     font-family: bebas-kai, sans-serif;
     font-weight: 400;
     color: white;
     font-style: normal;
     font-size: 45px;
     letter-spacing: 2px;
-    top: -2850px;
-    left: 700px;
+    top: 1657px;
+    left: 708px;
     z-index: 2;
 }
 
@@ -237,45 +233,49 @@ h5 {
 }
 
 .info01 {
-	position: relative;
-	font-family: bebas-kai;
-	font-weight: 400;
-	color: white;
-	font-size: 45px;
-	letter-spacing: 2px;
-	top: -3025px;
-	left: 1200px;
+	position: absolute;
+    font-family: bebas-kai;
+    font-weight: 400;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    width: 500px;
+    top: 1570px;
+    left: 1165px;
 }
 
 .info02 {
-	position: relative;
-	font-family: bebas-kai, sans-serif;
-	font-weight: 400;
-	color: white;
-	font-size: 45px;
-	letter-spacing: 2px;
-	top: -3096px;
-	left: 1157px;
+	position: absolute;
+    font-family: bebas-kai, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    top: 1627px;
+    left: 1121px;
 }
 
 
-h1 {
-	position: relative;
-	font-family: , sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 5em;
-	z-index: 2;
 
 
+
+.eventlist {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3cm;
+    width: 95vw;
+    position: absolute;
+    top: 2410px;
+    z-index: 2;
+    left: 45px;
 }
 
-
+/*
 .eventlist01 {
 	position: relative;
 	left: 40px;
 	top: -2407px;
-}
+}*/
 
 .eventtitle01 {
 	font-family: bebas-kai;
@@ -284,14 +284,14 @@ h1 {
 	color: white;
 
 }
-
+/*
 .eventlist02 {
 	position: relative;
 	left:570px;	
 	top: -2613px;
 	z-index: 2;
 
-}
+}*/
 
 .eventtitle02 {
 	font-family: bebas-kai;
@@ -300,14 +300,14 @@ h1 {
 	color: white;
 
 }
-
+/*
 .eventlist03 {
 	position: relative;
 	left:1140px;	
 	top: -2847px;
 	z-index: 2;
 
-}
+}*/
 
 .eventtitle03 {
 	font-family: bebas-kai;
@@ -317,22 +317,30 @@ h1 {
 
 }
 
-
+/* button hover fade in and glow code is referenced from: https://thoughtbot.com/blog/make-css3-buttons-like-a-boss" */
 .button {
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-column-gap: 2cm;
+	width: 100vw;
+	position: absolute;
 	color: white;
+	top: 2750px;
+	left:130px;
+
 }
 
 .studioA {
-	position: relative;
-	width: 200px;
-	height: 60px;
-	top: -2810px;
-	left: 100px;
+	width: 230px;
+	height: 90px;
+	/*top: -2810px;
+	left: 100px;*/
 	border-radius: 50px;
 	border: 2px solid white;
   	background-color: white;;
   	color: white;
   	cursor: pointer;
+  	font-size: 16px;
 }
 
 .studioA:hover{
@@ -345,17 +353,20 @@ h1 {
 
 
 .studioB {
-	position: relative;
-	width: 200px;
-	height: 60px;
-	top: -2890px;
-	left: 710px;
+	/*position: absolute;*/
+	width: 230px;
+	height: 90px;
+	margin-top: 50px;
+	/*left: 400px;*/
 	border-radius: 50px;
 	z-index: 2;
 	border: 2px solid white;
   	background-color: white;
   	color: white;
+  	position:relative;
+  	top: -178px;
   	cursor: pointer;
+  	font-size: 16px;
 
 }
 
@@ -370,16 +381,16 @@ h1 {
 
 
 .studioC {
-	position: relative;
-	width: 200px;
-	height: 60px;
-	top: -2970px;
-	left: 1260px;
+	width: 230px;
+	height: 90px;
+	/*top: -2970px;
+	left: 1260px;*/
 	border: 2px solid white;
   	background-color: white;
   	color: white;
 	border-radius: 50px;
 	cursor: pointer;
+	font-size: 16px;
 }
 
 .studioC:hover{
@@ -397,9 +408,9 @@ h1 {
 	font-size: 15px;
 	width: 2000px;
 	color: white;
-	position: relative;
+	position: absolute;
 	left: 300px;
-	top: -2500px;
+	top: 3318px;
 
 
 }
