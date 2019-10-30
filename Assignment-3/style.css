@@ -1,0 +1,253 @@
+body{
+  background-color: #090028;
+  height: 100vh;
+  width: 100vh; 
+  font-size:14px;
+  overflow: hidden;
+}
+
+
+/*.elem:hover {
+  background:lightpink;
+}*/
+
+.square1{
+  background: #ff6c82;
+  position: absolute;
+  width: 35px;
+  height: 30px;
+  top: 360px;
+  left: 200px;
+  transition: width ease 1s;                 
+}
+
+.square2 {
+  background: #006c97;
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  top: 420px;
+  left: 250px;
+  transition: height ease 1s;  
+  z-index: 3;  
+
+}
+
+.square3 {
+  background: #ff385d;
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 340px;
+  left: 680px;
+  transition: height ease 1s, top ease 1s;  
+
+}
+
+.square4 {
+  background: #36e1ff;
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 250px;
+  left: 900px;
+  transition: height ease 1s;  
+  z-index: 3;
+}
+
+.square5 {
+  background: #eefff0;
+  position: absolute;
+  width: 280px;
+  height: 30px;
+  top: 330px;
+  left: 1040px;
+  transition: width ease 0.7s;  
+}
+
+.square6 {
+  background: transparent;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 700px;
+  left: 500px;
+  transition: width ease 0.7s; 
+}
+
+
+.square7 {
+  background: transparent;
+  position: absolute;
+  width: 30px;
+  height: 100px;
+  top: 100px;
+  left: 1140px;
+  transition: width ease 0.7s;  
+}
+
+.square8 {
+  background: transparent;
+  position: absolute;
+  width: 280px;
+  height: 70px;
+  top: 270px;
+  left: 340px;
+  transition: width ease 0.7s, left ease 1s;  
+  z-index: 2;
+}
+
+.square9 {
+  background: transparent;
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  top: 500px;
+  left: 1340px;
+  transition: width ease 0.7s, left ease 1s, height ease 1s;  
+  z-index: -2;
+}
+
+.square10 {
+  background: transparent;
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  top: 500px;
+  left: 500px;
+  transition:  top ease 1s, height ease 1s;  
+  z-index: -2;
+}
+
+.square11 {
+  background: transparent;
+  position: absolute;
+  width: 410px;
+  height: 70px;
+  top: 600px;
+  left: 1200px;
+  transition:  top ease 1s, height ease 1s;  
+  z-index: -2;
+}
+
+.square12 {
+  background: transparent;
+  position: absolute;
+  width: 40px;
+  height: 210px;
+  top: 750px;
+  left: 100px;
+  transition:  left ease 1s, width ease 1s;  
+  z-index: -2;
+}
+
+.square13 {
+  background: transparent;
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  top: 800px;
+  left: 100px;
+  transition:  height ease 1s, top ease 1s;  
+  z-index: -5;
+}
+
+.square1.active {
+  width: 240px;
+  background-image: linear-gradient(to left, #ff6c82,#090028);
+  z-index: 1; 
+
+}
+
+.square2.active {
+  height: 500px;
+  background-image: linear-gradient(to bottom, #006c97,#090028);
+}
+
+
+.square3.active { 
+  height: 600px;
+  top: 100px;
+  background-image: linear-gradient(to bottom, #ff385d,#090028);
+
+}
+
+.square4.active { 
+  height: 700px;
+  background-image: linear-gradient(to top, #00ffff,#090028);
+  z-index: -2;
+
+}
+
+.square5.active { 
+  width: 100px;
+  background-image: linear-gradient(to left, #090028,#36e1ff);
+
+}
+
+.square6.active { 
+  width: 500px;
+  background-image: linear-gradient(to left, #090028,#ff5bdf);
+  z-index: -3;
+
+}
+
+.square7.active { 
+  width: 500px;
+  background-image: linear-gradient(to left, #090028,#4561ff);
+
+}
+
+.square8.active { 
+  width:300px;
+  left: 50px;
+  background-image: linear-gradient(to left, #090028,#ff595d);
+  z-index: 3;
+
+}
+
+.square9.active { 
+  width:300px;
+  height:100px;
+  left: 300px;
+  background-image: linear-gradient(to left, #090028,#ff106a);
+
+}
+
+.square10.active { 
+  height: 600px;
+  top: 80px;
+  background-image: linear-gradient(to bottom, #090028,#9d005d);
+
+}
+
+.square11.active { 
+  height: 600px;
+  top: 80px;
+  background-image: linear-gradient(to bottom, #090028,#ff5c60);
+
+
+}
+
+
+.square12.active { 
+  width: 1000px;
+  left: 600px;
+  background-image: linear-gradient(to right, #090028,#61006c);
+  z-index: -3;
+}
+
+
+.square13.active { 
+  height: 800px;
+  top: 50px;
+  background-image: linear-gradient(to bottom, #090028,#ff1dc7);
+  z-index: 2;
+
+}
+
+
+
+
+
+
