@@ -1,0 +1,57 @@
+
+
+body {
+	height: 1500px;
+  	font-size: 19px;
+	font-family: montserrat;
+
+}
+
+
+h1 {
+font-family: Futura;
+text-align: center;
+} 
+
+
+
+.parallax {
+	background-image: url(sunset.jpg);
+	min-height: 1000px; 
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  
+}
+
+.title {
+		font-family: Helvetica;
+		font-weight: bold;
+		color: white;
+		top: 400px;
+		font-size: 50px;
+		position: absolute;
+		left: 570px;
+}
+
+.explanation {
+	font-family: Helvetica;
+		font-weight: bold;
+		color: white;
+		top: 1500px;
+		font-size: 20px;
+		position: absolute;
+		left: 550px;
+		width: 610px;
+		z-index: 2px;
+}
+
+}
+
+
+
+
+
+
+
