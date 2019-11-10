@@ -1,0 +1,26 @@
+body {
+	width: 500px;
+	font-family: helvetica;
+}
+
+a:hover {
+	color: pink;
+	cursor: pointer;
+
+}
+
+.example2 {
+	left: 600px;
+	top: 550px;
+}
+
+.example3 {
+	
+	top: 900px;
+}
+
+.example4 {
+
+	top: 1400px;
+}
+
