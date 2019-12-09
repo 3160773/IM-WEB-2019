@@ -1,0 +1,51 @@
+body {
+	background:black;
+	color: white;
+	font-size: 19px;
+	width: 550px;
+	font-family: montserrat;
+}
+
+li {
+	color: white;
+	font-family: montserrat;
+	font-size: 12px
+	
+}
+
+p {
+	color: white;
+	font-family: montserrat;
+	font-size: 12px
+	
+}
+
+h2 {
+	font-family: helvetica;
+}
+
+.q1 {
+	
+	font-weight: bold;
+}
+
+.q2 {
+
+	font-weight: bold;
+}
+
+.q3 {
+	font-weight: bold;
+}
+
+.a1 {
+	letter-spacing: 0.5px;
+}
+
+
+.img01: hover {
+	background: white;
+	-webkit-box-shadow: 0px 5px 40px -10px pink;
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}

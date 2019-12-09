@@ -1,0 +1,56 @@
+body {
+	background:white;
+	color: black;
+	font-size: 19px;
+	width: 550px;
+	font-family: montserrat;
+}
+
+li {
+	color: black;
+	font-family: montserrat;
+	font-size: 12px
+	
+}
+
+p {
+	color: black;
+	font-family: montserrat;
+	font-size: 12px
+	
+}
+
+h2 {
+	font-family: helvetica;
+}
+
+.q1 {
+	
+	font-weight: bold;
+}
+
+.q2 {
+
+	font-weight: bold;
+}
+
+.q3 {
+	font-weight: bold;
+}
+
+.a1 {
+	letter-spacing: 0.5px;
+}
+
+.image {
+	width: 300px;
+	height: 400px;
+}
+
+
+.screenshot {
+    top: -520px;
+    left: 1210px;
+    width: 1000px;
+
+}

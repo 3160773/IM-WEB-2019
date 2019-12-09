@@ -1,0 +1,186 @@
+body{
+	height:1000%;
+	background-color:#60d3e6; 
+	background-repeat: 
+	no-repeat;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	}
+
+a:link {
+	text-decoration: none;
+}
+
+.parallax {
+	background-image: url(drown-headline-07.png);
+	background-color: black;
+	min-height: 1000px; 
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  
+}
+
+
+h2 {
+	
+font-family: bely-display, sans-serif;
+font-weight: 400;
+font-style: normal; 
+color: white;
+top: 2000px;
+font-size: 80px;
+width: 600px;
+z-index: 2px;
+text-align: left;
+
+}
+
+.explanation01 {
+		font-family: europa, sans-serif;
+		font-weight: bold;
+		color: white;
+		top: 1500px;
+		font-size: 20px;
+		
+
+		width: 550px;
+		z-index: 2px;
+		text-align: left;
+}
+
+.explanation02 {
+		font-family: europa, sans-serif;
+		font-weight: bold;
+		color: white;
+		top: 2120px;
+		font-size: 20px;
+		
+		;
+		width: 610px;
+		z-index: 2px;
+		text-align: left;
+
+}
+
+.drown-button {
+	background:#00eff9;
+	width: 200px;
+	height: 200px;
+	border-radius: 0 50% 50% 50%;
+	transform: rotate(45deg);
+	/*translate: ;*/
+	margin-top: 20px;
+	
+	z-index: 1;
+
+}
+
+.drown-button:hover {
+	background: white;
+	color: black;
+	-webkit-box-shadow: 0px 5px 40px -10px pink;
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+
+}
+
+.button-text {
+	font-family: bely-display, sans-serif;
+		font-weight: bold;
+		color: white;
+		top: 2500px;
+		font-size: 30px;
+		transform: rotate(-45deg) translate(-4px,47px);
+		text-align: left;
+		
+	
+		z-index: 2px;
+
+}
+
+
+
+.section {
+	width:100%;
+	height:100vh;
+	max-width:100%;
+	max-height:100vh;
+	box-sizing:border-box;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+}
+
+
+.bubbles {
+  position: absolute;
+  bottom: 0 ;
+  z-index: 5;
+  margin-right: 50px;
+  background-color: #00eff9;
+  border-radius: 50%;
+  opacity: .50;
+  width: 40px;
+  height: 40px;
+  animation: up 4s infinite;
+}
+
+.bubble-2 {
+  left: 380px;
+  animation: up 2s infinite;
+}
+
+.bubble-3 {
+  left: 750px;
+  opacity: .30;
+  animation: up 5s infinite;
+}
+
+.bubble-4 {
+  left: 1590px;
+  animation: up 6s infinite;
+}
+
+.bubble-5 {
+  left: 50px;
+  animation: up 5s infinite;
+}
+
+.bubble-6 {
+  left: 300px;
+  opacity: .30;
+  animation: up 3s infinite;
+}
+
+.bubble-7 {
+  left: 670px;
+  animation: up 4s infinite;
+}
+
+.bubble-8 {
+  left: 1050px;
+  opacity: .30;
+  animation: up 7s infinite;
+}
+
+.bubble-9 {
+  left: 1450px;
+  animation: up 5.6s infinite;
+}
+
+.bubble-9 {
+  left: 1290px;
+  animation: up 4.6s infinite;
+}
+
+@keyframes up {
+  100% {
+    transform: translateY(-1080px);
+  }
+}
