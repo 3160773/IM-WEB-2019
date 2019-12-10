@@ -1,33 +1,3 @@
-// $(".point").click(function(){
-//     var c = "."+$(this).attr("id");
-//     $(".active").removeClass("active")
-
-//     $(c).addClass("active");
-
-// })
-
-// $(function() {
-  
-//   $('.point').on('click', function() {
-//     var $ container = $(this);
-//     $ container.fadeOut(function() {
-//       $ container.toggleClass('japan egypt').fadeIn();
-//     });
-//   });
-  
-// });
-
-// $(".point").click(function(){
-//    var c = "."+$(this).attr("id");
-// $(".active").removeClass("active")
-
-// if ( $(this).hasClass("osaka") ) {
-//     $(".stats").toggleClass("osaka.active")
-
-// }
-
-// });
-
 $(".point").click(function(){
 
 
@@ -37,6 +7,8 @@ $(".point").click(function(){
   $(target).toggleClass("active")
 
 });
+
+//referenced https://codepen.io/Armolp/pen/PPbXZx
 
 //essential variables
 var canvas = document.getElementById("canvas"),
@@ -48,7 +20,7 @@ var w = canvas.width = window.innerWidth-230,
     particles = [], //particle array
     level = 50,
     fill = false,
-    color = "#AAF2FF",
+    color = "#00929D",
     c;
 //Particle object constructor
 function particle(x, y, d){

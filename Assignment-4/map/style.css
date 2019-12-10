@@ -1,6 +1,7 @@
 
 body {
-	background-color: #010005;
+	background-color: #AAE0E0;
+	overflow: hidden;;
 }
 
 .map {
@@ -36,7 +37,7 @@ body {
 
 	border-radius: 500px;
 	position: absolute;
-	background-color: #08f5ff;	
+	background-color: #C0F7FF;	
 	width: 20px;
 	height: 20px;
 	top: 480px;
@@ -72,7 +73,7 @@ body {
 
 	border-radius: 500px;
 	position: absolute;
-	background-color: #08f5ff;	
+	background-color: #C0F7FF;	
 	width: 20px;
 	height: 20px;
 	top: 510px;
@@ -84,7 +85,7 @@ body {
 
 	border-radius: 500px;
 	position: absolute;
-	background-color: #08f5ff;	
+	background-color: #C0F7FF;	
 	width: 20px;
 	height: 20px;
 	top: 650px;
@@ -96,7 +97,7 @@ body {
 
 	border-radius: 500px;
 	position: absolute;
-	background-color: #08f5ff;	
+	background-color: #C0F7FF;	
 	width: 20px;
 	height: 20px;
 	top: 500px;
@@ -108,7 +109,7 @@ body {
 
 	border-radius: 500px;
 	position: absolute;
-	background-color: #08f5ff;	
+	background-color: #C0F7FF;	
 	width: 20px;
 	height: 20px;
 	top: 510px;
@@ -307,7 +308,7 @@ canvas{
 #level{
 	position:absolute;
 	margin:0px 1px;
-	top:calc(50% - 13px);
+	top:calc(50% - 50px);
 	left:calc(60px - 50vh);
 	width:calc(100vh - 100px);
 	height:10px;
@@ -319,7 +320,11 @@ canvas{
 	-ms-transform:rotate(-90deg);
 	transform:rotate(-90deg);
 
+}
 
+.switch {
+	display: none;
+}
 
 
 
