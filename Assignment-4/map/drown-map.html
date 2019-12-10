@@ -4,6 +4,8 @@
 	<title>Map</title>
 <link rel="stylesheet" href="../map/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.typekit.net/mtr7frw.css">
+
 </head>
 <body>
 
@@ -11,33 +13,93 @@
 	<img src="map-09.png" alt="map" width="1100" height="600">
 	</div>
 
-	<div class="point japan"></div>
-	<div class="point egypt"></div>
-	<div class="point brazil"></div>
-	<div class="point china"></div>
-	<div class="point florida"></div>
 
-	
+	<div class="point japan" data-target=".osaka"></div>
+	<div class="point egypt" data-target=".alexandria"></div>
+	<div class="point brazil" data-target=".rio"></div>
+	<div class="point china" data-target=".shanghai"></div>
+	<div class="point florida" data-target=".miami"></div>
+</div>
 
 
-
-	<div class="stats">
-		<img class="osaka" src="japan.png"/>
-		<img class="alexandria" src="egypt.png"/>
-		<img class="rio" src="brazil.png"/>
-		<img class="shanghai" src="china.png"/>
-		<img class="miami" src="florida.png"/>
-
+<div class="container-japan">
+	<div class="stats osaka">
+		<h1 class="country-title">Osaka, Japan</h1>
+		<img class="flag" src="japan.png"/>
+		<h2 class="number-affected-j">5.2</h2>
+		<p class="affected-text">million people affected</p>
 	</div>
+</div>
 
 
-<!-- 	<div class="alexandria">
-		<img src="egypt.png"  alt="map" width="300" height="400">
+<div class="container-egypt">
+	<div class="stats alexandria">
+		<h1 class="country-title">Alexandria, Egypt</h1>
+		<img class="flag" src="egypt.png"/>
+		<h2 class="number-affected-e">3</h2>
+		<p class="affected-text">million people affected</p>
 	</div>
-	 -->
+</div>
+
+
+<div class="container-brazil">
+	<div class="stats rio">
+		<h1 class="country-title">Rio, Brazil</h1>
+		<img class="flag" src="brazil.png"/>
+		<h2 class="number-affected-b">1.8</h2>
+		<p class="affected-text">million people affected</p>
+	</div>
+</div>
+
+<div class="container-china">
+	<div class="stats shanghai">
+		<h1 class="country-title">Shanghai, China</h1>
+		<img class="flag" src="china.png"/>
+		<h2 class="number-affected-c">17.5</h2>
+		<p class="affected-text">million people affected</p>
+	</div>
+</div>
+
+<div class="container-usa">
+	<div class="stats miami">
+		<h1 class="country-title">Miami Florida, USA</h1>
+		<img class="flag" src="usa.png"/>
+		<h2 class="number-affected-u">2.7</h2>
+		<p class="affected-text">million people affected</p>
+	</div>
+</div>
+
+<div>
+	<canvas id="canvas"/>
+</div>
+<div id="container">
+	<div id="rangeBox">
+		<input type="range" id="level" value="50" min="1" max="100" />
+	</div>
+	<!--------------------------------------->
+	<div id="statBox">
+		<div class="switch">
+			<input type="checkbox" name="switch" class="switch-checkbox" id="Filled_Hollow">
+			<label class="switch-label" for="Filled_Hollow">
+							<span class="switch-inner"></span>
+							<span class="switch-switch"></span>
+						</label>
+		</div>
+		<!------------------------------>
+		<div class="switch">
+			<input type="checkbox" name="switch" class="switch-checkbox" id="blue_red">
+			<label class="switch-label" for="blue_red">
+								<span class="switch-inner"></span>
+								<span class="switch-switch"></span>
+						</label>
+		</div>
+	</div>
+	<!--------------------------------------->
+</div>
 
 
 
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
