@@ -1,0 +1,111 @@
+/*
+SECTION 01
+**************/
+
+body{
+background-image: url(blackcloud.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+h1 {
+
+font-family: bely-display, sans-serif;
+font-weight: 400;
+font-style: normal; 
+color: #FFD40C;
+top: 2000px;
+font-size: 80px;
+width: 600px;
+z-index: 2px;
+text-align: left;
+
+
+}
+
+#navigation {
+  	width:100%;
+	height:100vh;
+	max-width:100%;
+	max-height:100vh;
+	box-sizing:border-box;
+	display:flex;
+	align-items:center;
+	justify-content:center;					/* Move it to the right */
+}
+	#navigation ul, #navigation li {
+		list-style: none;					/* Remove default bullit symbols */
+		margin: 0px;						/* Remove default margin */
+		padding: 0px;						/* Remove default padding */
+	}
+		#navigation ul li {
+			float: left;						/* Move it to the left */
+			position: relative;					/* Make it position relative for child elements/ sub menu */
+		}
+			#navigation li a {
+				color: white;
+				display:inline-block;				/* Display each link as block like paragraph and header */
+				font-family: Arial, sans-serif;		/* Define the font of menu item */
+				font-size: 15px;					/* Text size of item */
+				text-decoration: none;				/* Remove underline */
+				padding: 31px 10px 28px 10px;		/* Add some space between each item to look separate */
+				margin: 0 5px;						/* Add some space between each item to look separate */
+			}
+			
+#navigation ul li a:hover {
+	color: #FFD40C !important;						/* Define color on mouse hover */
+	/* border-bottom: 1px solid #1BAACC; */				/* Make it underline using border bottom */
+}
+
+/*
+SECTION 02
+**************/
+
+#navigation ul ul {
+	position: absolute;								/* Set position to absolute to remove it from normal flow of elements*/
+	left: -9999px;									/* It is something to hide it to left */	
+	margin: 0px;									/* Remove default margin */
+	padding: 0px;									/* Remove default padding */
+	background: transparent;								/* Make background white */
+}
+
+#navigation ul li:hover > ul { 
+	left:0px; 										/* Show sub menu on mouse hover */
+}
+
+#navigation ul ul li a {
+	display: block;									/* Display sub menu as block but not inline element */
+	padding: 8px 0px;								/* Define top and bottom space for sub menu item */
+	width: 150px;									/* Define the width of sub menu element */
+	border-bottom: 1px solid #FFD40C;				/* Add separator after each sub menu item */
+}
+#navigation ul ul li:last-child a {						/* Make last child border bottom bold */
+	border-bottom: 1px solid #FFD40C;
+}
+
+#navigation ul ul li a:hover {
+	color: #FFD40C !important;						/* Define color on mouse hover */
+	background-color: #FFD40C;
+	opacity: 50%;						/* Define the background color of sub menu item */
+}
+
+
+/*
+SECTION 03
+**************/
+#navigation ul ul ul { 
+	position:absolute; 
+	top:-9999px; 
+	 
+	
+	
+	
+}
+
+#current-menu-item {
+	font-weight: bold !important;					/* Make link bold & make it important to make higher precedence */
+	color: #FFD40C !important;						/* Define color for current item */
+	border-bottom: 1px solid #FFD40C !important;*/	/* Make it underline using border bottom */
+}
