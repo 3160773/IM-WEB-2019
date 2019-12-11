@@ -1,4 +1,4 @@
-$(".point").click(function(){
+$(".point").hover(function(){
 
 
   var target = $(this).attr("data-target");
